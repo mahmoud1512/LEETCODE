@@ -8,7 +8,7 @@ class Solution {
             set.add(x);
             map.put(x,false);
         }
-        for (int x:nums) {
+        for (int x:set) {
             if (map.get(x))
                 continue;
             map.put(x,true);
