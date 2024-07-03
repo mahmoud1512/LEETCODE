@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/mahmoud1512/LEETCODE/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/mahmoud1512/LEETCODE/tree/master/0049-group-anagrams) |
 | [0088-merge-sorted-array](https://github.com/mahmoud1512/LEETCODE/tree/master/0088-merge-sorted-array) |
+| [0128-longest-consecutive-sequence](https://github.com/mahmoud1512/LEETCODE/tree/master/0128-longest-consecutive-sequence) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/mahmoud1512/LEETCODE/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0217-contains-duplicate](https://github.com/mahmoud1512/LEETCODE/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/mahmoud1512/LEETCODE/tree/master/0219-contains-duplicate-ii) |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/mahmoud1512/LEETCODE/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/mahmoud1512/LEETCODE/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/mahmoud1512/LEETCODE/tree/master/0049-group-anagrams) |
+| [0128-longest-consecutive-sequence](https://github.com/mahmoud1512/LEETCODE/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/mahmoud1512/LEETCODE/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/mahmoud1512/LEETCODE/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/mahmoud1512/LEETCODE/tree/master/0242-valid-anagram) |
@@ -103,4 +105,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2278-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/mahmoud1512/LEETCODE/tree/master/2278-find-three-consecutive-integers-that-sum-to-a-given-number) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/mahmoud1512/LEETCODE/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
