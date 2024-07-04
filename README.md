@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/mahmoud1512/LEETCODE/tree/master/0088-merge-sorted-array) |
 | [0128-longest-consecutive-sequence](https://github.com/mahmoud1512/LEETCODE/tree/master/0128-longest-consecutive-sequence) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/mahmoud1512/LEETCODE/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0200-number-of-islands](https://github.com/mahmoud1512/LEETCODE/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/mahmoud1512/LEETCODE/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/mahmoud1512/LEETCODE/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/mahmoud1512/LEETCODE/tree/master/0238-product-of-array-except-self) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/mahmoud1512/LEETCODE/tree/master/0036-valid-sudoku) |
+| [0200-number-of-islands](https://github.com/mahmoud1512/LEETCODE/tree/master/0200-number-of-islands) |
 ## Math
 |  |
 | ------- |
@@ -110,8 +112,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/mahmoud1512/LEETCODE/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/mahmoud1512/LEETCODE/tree/master/0200-number-of-islands) |
 ## Stack
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/mahmoud1512/LEETCODE/tree/master/0020-valid-parentheses) |
+## Depth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/mahmoud1512/LEETCODE/tree/master/0200-number-of-islands) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/mahmoud1512/LEETCODE/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
