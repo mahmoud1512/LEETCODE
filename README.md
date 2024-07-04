@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2278-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/mahmoud1512/LEETCODE/tree/master/2278-find-three-consecutive-integers-that-sum-to-a-given-number) |
+| [2299-merge-nodes-in-between-zeros](https://github.com/mahmoud1512/LEETCODE/tree/master/2299-merge-nodes-in-between-zeros) |
 ## Union Find
 |  |
 | ------- |
@@ -125,4 +126,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/mahmoud1512/LEETCODE/tree/master/0200-number-of-islands) |
+## Linked List
+|  |
+| ------- |
+| [2299-merge-nodes-in-between-zeros](https://github.com/mahmoud1512/LEETCODE/tree/master/2299-merge-nodes-in-between-zeros) |
 <!---LeetCode Topics End-->
