@@ -114,11 +114,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/mahmoud1512/LEETCODE/tree/master/0150-evaluate-reverse-polish-notation) |
 | [2278-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/mahmoud1512/LEETCODE/tree/master/2278-find-three-consecutive-integers-that-sum-to-a-given-number) |
+| [2645-pass-the-pillow](https://github.com/mahmoud1512/LEETCODE/tree/master/2645-pass-the-pillow) |
 ## Simulation
 |  |
 | ------- |
 | [2278-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/mahmoud1512/LEETCODE/tree/master/2278-find-three-consecutive-integers-that-sum-to-a-given-number) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/mahmoud1512/LEETCODE/tree/master/2299-merge-nodes-in-between-zeros) |
+| [2645-pass-the-pillow](https://github.com/mahmoud1512/LEETCODE/tree/master/2645-pass-the-pillow) |
 ## Union Find
 |  |
 | ------- |
