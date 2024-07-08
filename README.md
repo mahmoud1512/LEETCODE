@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/mahmoud1512/LEETCODE/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/mahmoud1512/LEETCODE/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/mahmoud1512/LEETCODE/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/mahmoud1512/LEETCODE/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/mahmoud1512/LEETCODE/tree/master/0242-valid-anagram) |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/mahmoud1512/LEETCODE/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/mahmoud1512/LEETCODE/tree/master/0042-trapping-rain-water) |
 ## Monotonic Stack
 |  |
@@ -199,4 +201,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/mahmoud1512/LEETCODE/tree/master/1951-find-the-winner-of-the-circular-game) |
+## Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/mahmoud1512/LEETCODE/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
