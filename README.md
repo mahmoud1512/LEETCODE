@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/mahmoud1512/LEETCODE/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/mahmoud1512/LEETCODE/tree/master/0242-valid-anagram) |
 | [0345-reverse-vowels-of-a-string](https://github.com/mahmoud1512/LEETCODE/tree/master/0345-reverse-vowels-of-a-string) |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/mahmoud1512/LEETCODE/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/mahmoud1512/LEETCODE/tree/master/1720-crawler-log-folder) |
 ## Prefix Sum
 |  |
@@ -162,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/mahmoud1512/LEETCODE/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/mahmoud1512/LEETCODE/tree/master/0234-palindrome-linked-list) |
 | [0739-daily-temperatures](https://github.com/mahmoud1512/LEETCODE/tree/master/0739-daily-temperatures) |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/mahmoud1512/LEETCODE/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/mahmoud1512/LEETCODE/tree/master/1720-crawler-log-folder) |
 ## Depth-First Search
 |  |
