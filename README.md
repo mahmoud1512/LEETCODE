@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1720-crawler-log-folder](https://github.com/mahmoud1512/LEETCODE/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/mahmoud1512/LEETCODE/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/mahmoud1512/LEETCODE/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2846-robot-collisions](https://github.com/mahmoud1512/LEETCODE/tree/master/2846-robot-collisions) |
 ## Two Pointers
 |  |
 | ------- |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/mahmoud1512/LEETCODE/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/mahmoud1512/LEETCODE/tree/master/0628-maximum-product-of-three-numbers) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/mahmoud1512/LEETCODE/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [2846-robot-collisions](https://github.com/mahmoud1512/LEETCODE/tree/master/2846-robot-collisions) |
 ## String
 |  |
 | ------- |
@@ -154,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2278-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/mahmoud1512/LEETCODE/tree/master/2278-find-three-consecutive-integers-that-sum-to-a-given-number) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/mahmoud1512/LEETCODE/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2645-pass-the-pillow](https://github.com/mahmoud1512/LEETCODE/tree/master/2645-pass-the-pillow) |
+| [2846-robot-collisions](https://github.com/mahmoud1512/LEETCODE/tree/master/2846-robot-collisions) |
 ## Union Find
 |  |
 | ------- |
@@ -175,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/mahmoud1512/LEETCODE/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1720-crawler-log-folder](https://github.com/mahmoud1512/LEETCODE/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/mahmoud1512/LEETCODE/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2846-robot-collisions](https://github.com/mahmoud1512/LEETCODE/tree/master/2846-robot-collisions) |
 ## Depth-First Search
 |  |
 | ------- |
