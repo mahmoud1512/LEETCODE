@@ -13,7 +13,7 @@ class Solution {
                 if(x==0)
                 {
                     ans=Math.min(nums[m%siz],ans);
-                    l=m+1;
+                    l=m+1;   // it can be sorted by default so to take care we can we can try to maximize if we found an answer
                 }
                 else if(x==1)
                 {
