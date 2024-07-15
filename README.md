@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1720-crawler-log-folder](https://github.com/mahmoud1512/LEETCODE/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/mahmoud1512/LEETCODE/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/mahmoud1512/LEETCODE/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/mahmoud1512/LEETCODE/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2846-robot-collisions](https://github.com/mahmoud1512/LEETCODE/tree/master/2846-robot-collisions) |
 ## Two Pointers
 |  |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/mahmoud1512/LEETCODE/tree/master/0496-next-greater-element-i) |
 | [0726-number-of-atoms](https://github.com/mahmoud1512/LEETCODE/tree/master/0726-number-of-atoms) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/mahmoud1512/LEETCODE/tree/master/1392-find-the-difference-of-two-arrays) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/mahmoud1512/LEETCODE/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Sliding Window
 |  |
 | ------- |
@@ -261,4 +263,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/mahmoud1512/LEETCODE/tree/master/0374-guess-number-higher-or-lower) |
+## Tree
+|  |
+| ------- |
+| [2306-create-binary-tree-from-descriptions](https://github.com/mahmoud1512/LEETCODE/tree/master/2306-create-binary-tree-from-descriptions) |
+## Binary Tree
+|  |
+| ------- |
+| [2306-create-binary-tree-from-descriptions](https://github.com/mahmoud1512/LEETCODE/tree/master/2306-create-binary-tree-from-descriptions) |
 <!---LeetCode Topics End-->
