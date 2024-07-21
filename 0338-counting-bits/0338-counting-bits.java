@@ -1,24 +1,15 @@
 class Solution {
     public int[] countBits(int n) {
-        int[]ans=new int[n+1];
-        ans[0]=0;
-        for(int i=1;i<=n;i++)
-        {
-            ans[i]=countOnes(i);
+        int[] answer = new int[n+1];
+        answer[0] = 0;
+        for(int i=1;i<=n;i++) {
+            if(i%2!=0) {
+                answer[i] = answer[i-1] +1;
+            }
+            else {
+                answer[i] = answer[i/2];
+            }
         }
-        return ans;
-    }
-   int countOnes(int x)
-    {
-        int siz=(int)(Math.log(x)/Math.log(2)+1);
-        int ans=x;
-        int count=0;
-        for (int i = 0; i < siz; i++) {
-            int val=ans|(1<<i);
-            if(val==ans)
-                count++;
-            ans=val;
-        }
-        return count;
+        return answer;
     }
 }
