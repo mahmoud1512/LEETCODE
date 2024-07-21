@@ -244,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/mahmoud1512/LEETCODE/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/mahmoud1512/LEETCODE/tree/master/0042-trapping-rain-water) |
+| [0338-counting-bits](https://github.com/mahmoud1512/LEETCODE/tree/master/0338-counting-bits) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -286,4 +287,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0136-single-number](https://github.com/mahmoud1512/LEETCODE/tree/master/0136-single-number) |
 | [0191-number-of-1-bits](https://github.com/mahmoud1512/LEETCODE/tree/master/0191-number-of-1-bits) |
+| [0338-counting-bits](https://github.com/mahmoud1512/LEETCODE/tree/master/0338-counting-bits) |
 <!---LeetCode Topics End-->
