@@ -1,14 +1,14 @@
 class Solution {
 
-      int[]arrT=new int[60];
-      int[]arrS=new int[60];
-//      Map<Character,Integer>mpT=new HashMap<>();
+    int[]arrT=new int[60];
+    int[]arrS=new int[60];
+    //      Map<Character,Integer>mpT=new HashMap<>();
 //      Map<Character,Integer>mpS=new HashMap<>();
-      int siz1,siz2;
+    int siz1,siz2;
     int l=0,r=0;
     public String minWindow(String s, String t) {
-          siz1=t.length();
-          siz2=s.length();
+        siz1=t.length();
+        siz2=s.length();
         for (int i = 0; i < siz1; i++) {
             char x=t.charAt(i);
             arrT[x-'A']++;
@@ -46,17 +46,10 @@ class Solution {
     }
     boolean can(char p)
     {
-        if(arrT[p-'A']==0)
-        {
-            return !checkend();
-        }
-        else
-        {
-            if(arrS[p-'A']==0)
-                return true;
-            else
-                return !checkend();
-        }
+        // if(arrT[p-'A']==0)
+             return !checkend();
+        
+       // return arrS[p-'A']+1<=arrT[p-'A'];
 
     }
     boolean checkend()
