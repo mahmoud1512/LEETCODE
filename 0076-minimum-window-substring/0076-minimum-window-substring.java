@@ -1,7 +1,9 @@
 class Solution {
 
-      Map<Character,Integer>mpT=new HashMap<>();
-      Map<Character,Integer>mpS=new HashMap<>();
+      int[]arrT=new int[60];
+      int[]arrS=new int[60];
+//      Map<Character,Integer>mpT=new HashMap<>();
+//      Map<Character,Integer>mpS=new HashMap<>();
       int siz1,siz2;
     int l=0,r=0;
     public String minWindow(String s, String t) {
@@ -9,12 +11,7 @@ class Solution {
           siz2=s.length();
         for (int i = 0; i < siz1; i++) {
             char x=t.charAt(i);
-            if(mpT.containsKey(x))
-            {
-                mpT.put(x,mpT.get(x)+1);
-            }
-            else
-                mpT.put(x,1);
+            arrT[x-'A']++;
         }
 
         int min=Integer.MAX_VALUE;int st=-1,end=-1;
@@ -23,10 +20,7 @@ class Solution {
             while (r<siz2&&can(s.charAt(r)))
             {
                 char x=s.charAt(r);
-                if(mpS.containsKey(x))
-                    mpS.put(x,mpS.get(x)+1);
-                else
-                    mpS.put(x,1);
+                arrS[x-'A']++;
                 r++;
             }
             boolean c=checkend();
@@ -37,10 +31,7 @@ class Solution {
                 end=r-1;
             }
             char x=s.charAt(l);
-            if (mpS.get(x)==1)
-                mpS.remove(x);
-            else
-                mpS.put(x,mpS.get(x)-1);
+            arrS[x-'A']--;
             l++;
         }
         if(min!=Integer.MAX_VALUE)
@@ -55,13 +46,13 @@ class Solution {
     }
     boolean can(char p)
     {
-        if(!mpT.containsKey(p))
+        if(arrT[p-'A']==0)
         {
             return !checkend();
         }
         else
         {
-            if(!mpS.containsKey(p))
+            if(arrS[p-'A']==0)
                 return true;
             else
                 return !checkend();
@@ -70,9 +61,9 @@ class Solution {
     }
     boolean checkend()
     {
-        for (char v:mpT.keySet())
+        for (int i=0;i<60;i++)
         {
-            if(!mpS.containsKey(v)||mpS.get(v)<mpT.get(v))
+            if(arrS[i]<arrT[i])
                 return false;
         }
         return true;
