@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/mahmoud1512/LEETCODE/tree/master/0792-binary-search) |
 | [0883-car-fleet](https://github.com/mahmoud1512/LEETCODE/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/mahmoud1512/LEETCODE/tree/master/0907-koko-eating-bananas) |
+| [1019-squares-of-a-sorted-array](https://github.com/mahmoud1512/LEETCODE/tree/master/1019-squares-of-a-sorted-array) |
 | [1293-three-consecutive-odds](https://github.com/mahmoud1512/LEETCODE/tree/master/1293-three-consecutive-odds) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/mahmoud1512/LEETCODE/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/mahmoud1512/LEETCODE/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/mahmoud1512/LEETCODE/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/mahmoud1512/LEETCODE/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0567-permutation-in-string](https://github.com/mahmoud1512/LEETCODE/tree/master/0567-permutation-in-string) |
+| [1019-squares-of-a-sorted-array](https://github.com/mahmoud1512/LEETCODE/tree/master/1019-squares-of-a-sorted-array) |
 ## Sorting
 |  |
 | ------- |
@@ -80,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/mahmoud1512/LEETCODE/tree/master/0628-maximum-product-of-three-numbers) |
 | [0726-number-of-atoms](https://github.com/mahmoud1512/LEETCODE/tree/master/0726-number-of-atoms) |
 | [0883-car-fleet](https://github.com/mahmoud1512/LEETCODE/tree/master/0883-car-fleet) |
+| [1019-squares-of-a-sorted-array](https://github.com/mahmoud1512/LEETCODE/tree/master/1019-squares-of-a-sorted-array) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/mahmoud1512/LEETCODE/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2846-robot-collisions](https://github.com/mahmoud1512/LEETCODE/tree/master/2846-robot-collisions) |
 ## String
