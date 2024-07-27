@@ -1,6 +1,6 @@
 class Solution {
     public boolean isPerfectSquare(int num) {
-           int l=1,r=num/2+1;
+           int l=1,r=num/2+1;  //to handle odd numbers i add 1
            while (l<=r)
            {
                int m=l+(r-l)/2;
