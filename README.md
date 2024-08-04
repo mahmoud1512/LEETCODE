@@ -262,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0200-number-of-islands](https://github.com/mahmoud1512/LEETCODE/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/mahmoud1512/LEETCODE/tree/master/0207-course-schedule) |
+| [0210-course-schedule-ii](https://github.com/mahmoud1512/LEETCODE/tree/master/0210-course-schedule-ii) |
 | [0695-max-area-of-island](https://github.com/mahmoud1512/LEETCODE/tree/master/0695-max-area-of-island) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mahmoud1512/LEETCODE/tree/master/2121-find-if-path-exists-in-graph) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mahmoud1512/LEETCODE/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -271,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0200-number-of-islands](https://github.com/mahmoud1512/LEETCODE/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/mahmoud1512/LEETCODE/tree/master/0207-course-schedule) |
+| [0210-course-schedule-ii](https://github.com/mahmoud1512/LEETCODE/tree/master/0210-course-schedule-ii) |
 | [0695-max-area-of-island](https://github.com/mahmoud1512/LEETCODE/tree/master/0695-max-area-of-island) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mahmoud1512/LEETCODE/tree/master/2121-find-if-path-exists-in-graph) |
 ## Linked List
@@ -317,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/mahmoud1512/LEETCODE/tree/master/0207-course-schedule) |
+| [0210-course-schedule-ii](https://github.com/mahmoud1512/LEETCODE/tree/master/0210-course-schedule-ii) |
 | [1916-find-center-of-star-graph](https://github.com/mahmoud1512/LEETCODE/tree/master/1916-find-center-of-star-graph) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mahmoud1512/LEETCODE/tree/master/2121-find-if-path-exists-in-graph) |
 ## Queue
@@ -356,4 +359,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/mahmoud1512/LEETCODE/tree/master/0207-course-schedule) |
+| [0210-course-schedule-ii](https://github.com/mahmoud1512/LEETCODE/tree/master/0210-course-schedule-ii) |
 <!---LeetCode Topics End-->
