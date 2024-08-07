@@ -237,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/mahmoud1512/LEETCODE/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/mahmoud1512/LEETCODE/tree/master/0200-number-of-islands) |
+| [0684-redundant-connection](https://github.com/mahmoud1512/LEETCODE/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/mahmoud1512/LEETCODE/tree/master/0695-max-area-of-island) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mahmoud1512/LEETCODE/tree/master/2121-find-if-path-exists-in-graph) |
 ## Stack
@@ -266,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/mahmoud1512/LEETCODE/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/mahmoud1512/LEETCODE/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/mahmoud1512/LEETCODE/tree/master/0210-course-schedule-ii) |
+| [0684-redundant-connection](https://github.com/mahmoud1512/LEETCODE/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/mahmoud1512/LEETCODE/tree/master/0695-max-area-of-island) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mahmoud1512/LEETCODE/tree/master/2121-find-if-path-exists-in-graph) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mahmoud1512/LEETCODE/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -276,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/mahmoud1512/LEETCODE/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/mahmoud1512/LEETCODE/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/mahmoud1512/LEETCODE/tree/master/0210-course-schedule-ii) |
+| [0684-redundant-connection](https://github.com/mahmoud1512/LEETCODE/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/mahmoud1512/LEETCODE/tree/master/0695-max-area-of-island) |
 | [1036-rotting-oranges](https://github.com/mahmoud1512/LEETCODE/tree/master/1036-rotting-oranges) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mahmoud1512/LEETCODE/tree/master/2121-find-if-path-exists-in-graph) |
@@ -324,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/mahmoud1512/LEETCODE/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/mahmoud1512/LEETCODE/tree/master/0210-course-schedule-ii) |
+| [0684-redundant-connection](https://github.com/mahmoud1512/LEETCODE/tree/master/0684-redundant-connection) |
 | [1916-find-center-of-star-graph](https://github.com/mahmoud1512/LEETCODE/tree/master/1916-find-center-of-star-graph) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mahmoud1512/LEETCODE/tree/master/2121-find-if-path-exists-in-graph) |
 ## Queue
