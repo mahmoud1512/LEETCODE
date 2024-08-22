@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/mahmoud1512/LEETCODE/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/mahmoud1512/LEETCODE/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/mahmoud1512/LEETCODE/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/mahmoud1512/LEETCODE/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/mahmoud1512/LEETCODE/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/mahmoud1512/LEETCODE/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/mahmoud1512/LEETCODE/tree/master/0242-valid-anagram) |
@@ -318,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/mahmoud1512/LEETCODE/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/mahmoud1512/LEETCODE/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/mahmoud1512/LEETCODE/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/mahmoud1512/LEETCODE/tree/master/0146-lru-cache) |
 | [0147-insertion-sort-list](https://github.com/mahmoud1512/LEETCODE/tree/master/0147-insertion-sort-list) |
 | [0206-reverse-linked-list](https://github.com/mahmoud1512/LEETCODE/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/mahmoud1512/LEETCODE/tree/master/0234-palindrome-linked-list) |
@@ -336,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/mahmoud1512/LEETCODE/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/mahmoud1512/LEETCODE/tree/master/0155-min-stack) |
 | [1023-time-based-key-value-store](https://github.com/mahmoud1512/LEETCODE/tree/master/1023-time-based-key-value-store) |
 ## Dynamic Programming
@@ -409,4 +412,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/mahmoud1512/LEETCODE/tree/master/0023-merge-k-sorted-lists) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/mahmoud1512/LEETCODE/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
