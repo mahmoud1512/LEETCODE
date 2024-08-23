@@ -1,26 +1,21 @@
 class Solution {
     boolean ans=true;
     public boolean isBalanced(TreeNode root) {
-        solve(root);
-        return ans;
+       return solve(root)!=-1;
     }
 
-    private void solve(TreeNode root) {
-           if(root==null)
-               return ;
-          int p1=getLen(root.left);
-          int p2=getLen(root.right);
-          ans&=Math.abs(p1-p2)<=1;
-          solve(root.left);
-          solve(root.right);
-    }
-    private int getLen(TreeNode x)
-    {
-        if (x==null)
+    private int solve(TreeNode root) {
+        if (root==null)
             return 0;
-        int p1=1+getLen(x.left);
-        int p2=1+getLen(x.right);
-        return Math.max(p1,p2);
+        int left=solve(root.left);
+        if (left==-1)
+            return -1;
+        int right=solve(root.right);
+        if (right==-1)
+            return -1;
+        if(Math.abs(left-right)>1)
+            return -1;
+        return 1+Math.max(left,right);
     }
 
 
