@@ -295,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0543-diameter-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/mahmoud1512/LEETCODE/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/mahmoud1512/LEETCODE/tree/master/0695-max-area-of-island) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mahmoud1512/LEETCODE/tree/master/2121-find-if-path-exists-in-graph) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mahmoud1512/LEETCODE/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Breadth-First Search
@@ -314,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/mahmoud1512/LEETCODE/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/mahmoud1512/LEETCODE/tree/master/0695-max-area-of-island) |
 | [1036-rotting-oranges](https://github.com/mahmoud1512/LEETCODE/tree/master/1036-rotting-oranges) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mahmoud1512/LEETCODE/tree/master/2121-find-if-path-exists-in-graph) |
 ## Linked List
 |  |
@@ -397,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0110-balanced-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0543-diameter-of-binary-tree) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mahmoud1512/LEETCODE/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/mahmoud1512/LEETCODE/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Binary Tree
@@ -408,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0110-balanced-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0543-diameter-of-binary-tree) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mahmoud1512/LEETCODE/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/mahmoud1512/LEETCODE/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Bit Manipulation
