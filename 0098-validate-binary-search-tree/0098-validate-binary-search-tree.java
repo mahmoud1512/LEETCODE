@@ -16,34 +16,19 @@
 class Solution {
     boolean ans=true;
     public boolean isValidBST(TreeNode root) {
-       
-         traverse(root);
-         return ans;
+
+        traverse(root);
+        return ans;
     }
-    private void traverse(TreeNode root)
+    private long[] traverse(TreeNode root)
     {
         if (root==null)
-            return;
-        long right=getMin(root.right);
-        long left=getMax(root.left);
-        if(root.val<=left||root.val>=right)
-        {
+            return new long[]{Long.MAX_VALUE,Long.MIN_VALUE};
+        long[] p1=traverse(root.right);
+        long[] p2=traverse(root.left);
+        if(root.val<=p2[1]||root.val>=p1[0])
             ans=false;
-            return;
-        }
-        traverse(root.left);
-        traverse(root.right);
+        return new long[]{Math.min(root.val,Math.min(p1[0],p2[0])),Math.max(root.val,Math.max(p1[1],p2[1]))};
     }
-    long getMin(TreeNode x)
-    {
-        if(x==null)
-            return Long.MAX_VALUE;
-        return Math.min((long)x.val,Math.min(getMin(x.left),getMin(x.right)));
-    }
-    long getMax(TreeNode x)
-    {
-        if(x==null)
-            return Long.MIN_VALUE;
-        return Math.max((long)x.val,Math.max(getMax(x.left),getMax(x.right)));
-    }
+
 }
