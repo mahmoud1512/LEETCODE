@@ -1,29 +1,39 @@
 class Solution {
-    List<List<Integer>> ans = new ArrayList<>();
-    Set<List<Integer>>Check= new HashSet<>();
     int siz;
-    int[] arr;
-
+    int[]vals;
+    List<List<Integer>>ans;
+    List<Integer> subset;
     public List<List<Integer>> subsetsWithDup(int[] nums) {
-              siz=nums.length;
-              arr=nums;
-              findSubsets(0,new ArrayList<>());
-              return ans;
+        Arrays.sort(nums);
+        vals=nums;
+        siz=vals.length;
+        ans=new ArrayList<>();
+        subset=new ArrayList<>();
+        helper(0);
+        return ans;
     }
-
-    void findSubsets(int x, List<Integer> list) {
-        if (x == siz) {
-             Collections.sort(list);
-            if(!Check.contains(list))
-            {
-                ans.add(list);
-                Check.add(list);
-            }
+    public void helper(int idx)
+    {
+        if(idx==siz)
+        {
+            ans.add(new ArrayList<>(subset));
             return;
         }
-        ArrayList<Integer> dummy = new ArrayList<>(list);
-        dummy.add(arr[x]);
-        findSubsets(x + 1, dummy);   //take
-        findSubsets(x + 1, list);   //leave
+        //Take x
+        subset.add(vals[idx]);
+        helper(idx+1);
+        subset.remove(subset.size()-1);
+        //leave all x's
+        int z=siz;
+        for (int i = idx+1; i < siz; i++) {
+            if(vals[i]!=vals[idx])
+            {
+                z=i;
+                break;
+            }
+        }
+        helper(z);
     }
+
+
 }
