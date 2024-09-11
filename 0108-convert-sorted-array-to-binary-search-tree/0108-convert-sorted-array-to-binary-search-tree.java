@@ -5,7 +5,7 @@ class Solution {
          len=nums.length;
          values=nums;
 
-        return solve(0,len);
+        return solve(0,len-1);
 
 
     }
@@ -13,7 +13,6 @@ class Solution {
    private TreeNode solve(int start, int end) {
             int mid=(start+end)/2;
             TreeNode x=null;
-            if(mid!=len)
                 x=new TreeNode(values[mid]);
             if(x!=null) {
                 if(mid>start)
