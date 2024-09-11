@@ -12,9 +12,10 @@ class Solution {
         int p2=solve(root.right);
         if (p2==-1)
             return -1;
-
-        if(Math.abs(p1-p2)>1)
+        
+        if(Math.abs(p1-p2)<=1)
+            return 1+Math.max(p1,p2);
+        else 
             return -1;
-        return 1+Math.max(p1,p2);
     }
 }
