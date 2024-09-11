@@ -12,8 +12,7 @@ class Solution {
 
    private TreeNode solve(int start, int end) {
             int mid=(start+end)/2;
-            TreeNode x=null;
-                x=new TreeNode(values[mid]);
+            TreeNode x=new TreeNode(values[mid]);
             if(x!=null) {
                 if(mid>start)
                     x.left = solve(start, mid - 1);
