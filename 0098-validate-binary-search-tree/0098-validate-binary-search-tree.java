@@ -1,3 +1,4 @@
+//Very great and Simple Solution
 class Solution {
     public boolean isValidBST(TreeNode root) {
           return check(root,Long.MIN_VALUE,Long.MAX_VALUE);
