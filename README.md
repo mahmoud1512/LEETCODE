@@ -313,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/mahmoud1512/LEETCODE/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/mahmoud1512/LEETCODE/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0417-pacific-atlantic-water-flow](https://github.com/mahmoud1512/LEETCODE/tree/master/0417-pacific-atlantic-water-flow) |
 | [0513-find-bottom-left-tree-value](https://github.com/mahmoud1512/LEETCODE/tree/master/0513-find-bottom-left-tree-value) |
 | [0538-convert-bst-to-greater-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0538-convert-bst-to-greater-tree) |
@@ -444,6 +445,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/mahmoud1512/LEETCODE/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/mahmoud1512/LEETCODE/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0513-find-bottom-left-tree-value](https://github.com/mahmoud1512/LEETCODE/tree/master/0513-find-bottom-left-tree-value) |
 | [0538-convert-bst-to-greater-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0538-convert-bst-to-greater-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0543-diameter-of-binary-tree) |
@@ -469,6 +471,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/mahmoud1512/LEETCODE/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/mahmoud1512/LEETCODE/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0513-find-bottom-left-tree-value](https://github.com/mahmoud1512/LEETCODE/tree/master/0513-find-bottom-left-tree-value) |
 | [0538-convert-bst-to-greater-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0538-convert-bst-to-greater-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0543-diameter-of-binary-tree) |
@@ -514,5 +517,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0098-validate-binary-search-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0098-validate-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/mahmoud1512/LEETCODE/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0538-convert-bst-to-greater-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0538-convert-bst-to-greater-tree) |
 <!---LeetCode Topics End-->
