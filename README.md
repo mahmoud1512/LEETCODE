@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/mahmoud1512/LEETCODE/tree/master/0792-binary-search) |
 | [0883-car-fleet](https://github.com/mahmoud1512/LEETCODE/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/mahmoud1512/LEETCODE/tree/master/0907-koko-eating-bananas) |
+| [1014-k-closest-points-to-origin](https://github.com/mahmoud1512/LEETCODE/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/mahmoud1512/LEETCODE/tree/master/1019-squares-of-a-sorted-array) |
 | [1036-rotting-oranges](https://github.com/mahmoud1512/LEETCODE/tree/master/1036-rotting-oranges) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/mahmoud1512/LEETCODE/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/mahmoud1512/LEETCODE/tree/master/0628-maximum-product-of-three-numbers) |
 | [0726-number-of-atoms](https://github.com/mahmoud1512/LEETCODE/tree/master/0726-number-of-atoms) |
 | [0883-car-fleet](https://github.com/mahmoud1512/LEETCODE/tree/master/0883-car-fleet) |
+| [1014-k-closest-points-to-origin](https://github.com/mahmoud1512/LEETCODE/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/mahmoud1512/LEETCODE/tree/master/1019-squares-of-a-sorted-array) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/mahmoud1512/LEETCODE/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2846-robot-collisions](https://github.com/mahmoud1512/LEETCODE/tree/master/2846-robot-collisions) |
@@ -213,12 +215,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0191-number-of-1-bits](https://github.com/mahmoud1512/LEETCODE/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mahmoud1512/LEETCODE/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/mahmoud1512/LEETCODE/tree/master/0347-top-k-frequent-elements) |
+| [1014-k-closest-points-to-origin](https://github.com/mahmoud1512/LEETCODE/tree/master/1014-k-closest-points-to-origin) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/mahmoud1512/LEETCODE/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mahmoud1512/LEETCODE/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/mahmoud1512/LEETCODE/tree/master/0347-top-k-frequent-elements) |
+| [1014-k-closest-points-to-origin](https://github.com/mahmoud1512/LEETCODE/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/mahmoud1512/LEETCODE/tree/master/1127-last-stone-weight) |
 ## Bucket Sort
 |  |
@@ -233,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/mahmoud1512/LEETCODE/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/mahmoud1512/LEETCODE/tree/master/0347-top-k-frequent-elements) |
+| [1014-k-closest-points-to-origin](https://github.com/mahmoud1512/LEETCODE/tree/master/1014-k-closest-points-to-origin) |
 ## Matrix
 |  |
 | ------- |
@@ -255,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0367-valid-perfect-square](https://github.com/mahmoud1512/LEETCODE/tree/master/0367-valid-perfect-square) |
 | [0441-arranging-coins](https://github.com/mahmoud1512/LEETCODE/tree/master/0441-arranging-coins) |
 | [0628-maximum-product-of-three-numbers](https://github.com/mahmoud1512/LEETCODE/tree/master/0628-maximum-product-of-three-numbers) |
+| [1014-k-closest-points-to-origin](https://github.com/mahmoud1512/LEETCODE/tree/master/1014-k-closest-points-to-origin) |
 | [1642-water-bottles](https://github.com/mahmoud1512/LEETCODE/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/mahmoud1512/LEETCODE/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2278-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/mahmoud1512/LEETCODE/tree/master/2278-find-three-consecutive-integers-that-sum-to-a-given-number) |
@@ -532,4 +538,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/mahmoud1512/LEETCODE/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0538-convert-bst-to-greater-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0538-convert-bst-to-greater-tree) |
+## Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/mahmoud1512/LEETCODE/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
