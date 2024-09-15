@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1019-squares-of-a-sorted-array](https://github.com/mahmoud1512/LEETCODE/tree/master/1019-squares-of-a-sorted-array) |
 | [1036-rotting-oranges](https://github.com/mahmoud1512/LEETCODE/tree/master/1036-rotting-oranges) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/mahmoud1512/LEETCODE/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1127-last-stone-weight](https://github.com/mahmoud1512/LEETCODE/tree/master/1127-last-stone-weight) |
 | [1293-three-consecutive-odds](https://github.com/mahmoud1512/LEETCODE/tree/master/1293-three-consecutive-odds) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/mahmoud1512/LEETCODE/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/mahmoud1512/LEETCODE/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -218,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/mahmoud1512/LEETCODE/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mahmoud1512/LEETCODE/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/mahmoud1512/LEETCODE/tree/master/0347-top-k-frequent-elements) |
+| [1127-last-stone-weight](https://github.com/mahmoud1512/LEETCODE/tree/master/1127-last-stone-weight) |
 ## Bucket Sort
 |  |
 | ------- |
