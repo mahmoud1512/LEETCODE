@@ -222,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/mahmoud1512/LEETCODE/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mahmoud1512/LEETCODE/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/mahmoud1512/LEETCODE/tree/master/0347-top-k-frequent-elements) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/mahmoud1512/LEETCODE/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/mahmoud1512/LEETCODE/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/mahmoud1512/LEETCODE/tree/master/1127-last-stone-weight) |
 ## Bucket Sort
@@ -397,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/mahmoud1512/LEETCODE/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/mahmoud1512/LEETCODE/tree/master/0155-min-stack) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/mahmoud1512/LEETCODE/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1023-time-based-key-value-store](https://github.com/mahmoud1512/LEETCODE/tree/master/1023-time-based-key-value-store) |
 ## Dynamic Programming
 |  |
@@ -469,6 +471,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/mahmoud1512/LEETCODE/tree/master/0617-merge-two-binary-trees) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/mahmoud1512/LEETCODE/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mahmoud1512/LEETCODE/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/mahmoud1512/LEETCODE/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -496,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/mahmoud1512/LEETCODE/tree/master/0617-merge-two-binary-trees) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/mahmoud1512/LEETCODE/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mahmoud1512/LEETCODE/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/mahmoud1512/LEETCODE/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -538,8 +542,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/mahmoud1512/LEETCODE/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0538-convert-bst-to-greater-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0538-convert-bst-to-greater-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/mahmoud1512/LEETCODE/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Geometry
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/mahmoud1512/LEETCODE/tree/master/1014-k-closest-points-to-origin) |
+## Data Stream
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/mahmoud1512/LEETCODE/tree/master/0789-kth-largest-element-in-a-stream) |
 <!---LeetCode Topics End-->
