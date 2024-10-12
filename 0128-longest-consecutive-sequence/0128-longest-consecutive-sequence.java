@@ -1,3 +1,5 @@
+
+//expand around a number
 class Solution {
 
     Set<Integer>set=new HashSet<>();
