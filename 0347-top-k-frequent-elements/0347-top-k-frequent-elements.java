@@ -1,24 +1,32 @@
 class Solution {
+      Map<Integer /*data*/, Integer /*Frequency*/> FreQmap=new HashMap<>();
     public int[] topKFrequent(int[] nums, int k) {
-           int[]freq=new int[20002];
-        for (int x:nums) {
-            freq[x+10000]++;
-        }
-        Comparator<int []>comparator=new Comparator<int[]>() {
-            @Override
-            public int compare(int[] o1, int[] o2) {
-                return o2[1]-o1[1];
-            }
-        };
-        PriorityQueue<int[]>priorityQueue=new PriorityQueue<>(comparator);
-        for (int i=0;i<20002;i++)
-        {
-            priorityQueue.add(new int[]{i-10000,freq[i]});
-        }
-        int []ans=new int[k];
-        for (int i=0;i<k;i++)
-        {
-            ans[i]=priorityQueue.poll()[0];
+          for (int x:nums)
+          {
+              if(!FreQmap.containsKey(x))
+              {
+                  FreQmap.put(x,1);
+              }
+              else
+                  FreQmap.put(x,FreQmap.get(x)+1);
+          }
+          PriorityQueue<Map.Entry<Integer,Integer>>pq=new PriorityQueue<>((e1,e2)->e1.getValue().compareTo(e2.getValue()));
+          for (Map.Entry<Integer,Integer> x: FreQmap.entrySet())
+          {
+              if(pq.size()<k)
+                  pq.add(x);
+              else
+              {
+                  if(FreQmap.get(pq.peek().getKey())<FreQmap.get(x.getKey()))
+                  {
+                      pq.poll();
+                      pq.add(x);
+                  }
+              }
+          }
+          int[]ans=new int[k];
+        for (int i = 0; i < k; i++) {
+            ans[i]= pq.poll().getKey();
         }
         return ans;
     }
