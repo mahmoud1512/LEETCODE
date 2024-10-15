@@ -138,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0726-number-of-atoms](https://github.com/mahmoud1512/LEETCODE/tree/master/0726-number-of-atoms) |
 | [1023-time-based-key-value-store](https://github.com/mahmoud1512/LEETCODE/tree/master/1023-time-based-key-value-store) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/mahmoud1512/LEETCODE/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/mahmoud1512/LEETCODE/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1720-crawler-log-folder](https://github.com/mahmoud1512/LEETCODE/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/mahmoud1512/LEETCODE/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mahmoud1512/LEETCODE/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -187,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/mahmoud1512/LEETCODE/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/mahmoud1512/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/mahmoud1512/LEETCODE/tree/master/0567-permutation-in-string) |
+| [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/mahmoud1512/LEETCODE/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## Binary Search
 |  |
 | ------- |
