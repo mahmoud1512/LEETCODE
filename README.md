@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/mahmoud1512/LEETCODE/tree/master/0540-single-element-in-a-sorted-array) |
 | [0628-maximum-product-of-three-numbers](https://github.com/mahmoud1512/LEETCODE/tree/master/0628-maximum-product-of-three-numbers) |
 | [0695-max-area-of-island](https://github.com/mahmoud1512/LEETCODE/tree/master/0695-max-area-of-island) |
+| [0735-asteroid-collision](https://github.com/mahmoud1512/LEETCODE/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/mahmoud1512/LEETCODE/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/mahmoud1512/LEETCODE/tree/master/0792-binary-search) |
 | [0883-car-fleet](https://github.com/mahmoud1512/LEETCODE/tree/master/0883-car-fleet) |
@@ -287,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/mahmoud1512/LEETCODE/tree/master/0735-asteroid-collision) |
 | [1642-water-bottles](https://github.com/mahmoud1512/LEETCODE/tree/master/1642-water-bottles) |
 | [1803-average-waiting-time](https://github.com/mahmoud1512/LEETCODE/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/mahmoud1512/LEETCODE/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -319,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/mahmoud1512/LEETCODE/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/mahmoud1512/LEETCODE/tree/master/0503-next-greater-element-ii) |
 | [0726-number-of-atoms](https://github.com/mahmoud1512/LEETCODE/tree/master/0726-number-of-atoms) |
+| [0735-asteroid-collision](https://github.com/mahmoud1512/LEETCODE/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/mahmoud1512/LEETCODE/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/mahmoud1512/LEETCODE/tree/master/0883-car-fleet) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/mahmoud1512/LEETCODE/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
