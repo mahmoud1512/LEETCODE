@@ -284,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0441-arranging-coins](https://github.com/mahmoud1512/LEETCODE/tree/master/0441-arranging-coins) |
 | [0628-maximum-product-of-three-numbers](https://github.com/mahmoud1512/LEETCODE/tree/master/0628-maximum-product-of-three-numbers) |
 | [1014-k-closest-points-to-origin](https://github.com/mahmoud1512/LEETCODE/tree/master/1014-k-closest-points-to-origin) |
+| [1236-n-th-tribonacci-number](https://github.com/mahmoud1512/LEETCODE/tree/master/1236-n-th-tribonacci-number) |
 | [1642-water-bottles](https://github.com/mahmoud1512/LEETCODE/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/mahmoud1512/LEETCODE/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2278-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/mahmoud1512/LEETCODE/tree/master/2278-find-three-consecutive-integers-that-sum-to-a-given-number) |
@@ -438,6 +439,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/mahmoud1512/LEETCODE/tree/master/0131-palindrome-partitioning) |
 | [0338-counting-bits](https://github.com/mahmoud1512/LEETCODE/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/mahmoud1512/LEETCODE/tree/master/0392-is-subsequence) |
+| [1236-n-th-tribonacci-number](https://github.com/mahmoud1512/LEETCODE/tree/master/1236-n-th-tribonacci-number) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -596,4 +598,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/mahmoud1512/LEETCODE/tree/master/0239-sliding-window-maximum) |
+## Memoization
+|  |
+| ------- |
+| [1236-n-th-tribonacci-number](https://github.com/mahmoud1512/LEETCODE/tree/master/1236-n-th-tribonacci-number) |
 <!---LeetCode Topics End-->
