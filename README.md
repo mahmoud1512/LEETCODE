@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1720-crawler-log-folder](https://github.com/mahmoud1512/LEETCODE/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/mahmoud1512/LEETCODE/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/mahmoud1512/LEETCODE/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/mahmoud1512/LEETCODE/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/mahmoud1512/LEETCODE/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/mahmoud1512/LEETCODE/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2727-number-of-senior-citizens](https://github.com/mahmoud1512/LEETCODE/tree/master/2727-number-of-senior-citizens) |
@@ -275,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/mahmoud1512/LEETCODE/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/mahmoud1512/LEETCODE/tree/master/0695-max-area-of-island) |
 | [1036-rotting-oranges](https://github.com/mahmoud1512/LEETCODE/tree/master/1036-rotting-oranges) |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/mahmoud1512/LEETCODE/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 ## Math
 |  |
 | ------- |
@@ -397,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/mahmoud1512/LEETCODE/tree/master/1036-rotting-oranges) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/mahmoud1512/LEETCODE/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mahmoud1512/LEETCODE/tree/master/2121-find-if-path-exists-in-graph) |
 ## Linked List
 |  |
