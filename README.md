@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/mahmoud1512/LEETCODE/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/mahmoud1512/LEETCODE/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/mahmoud1512/LEETCODE/tree/master/0049-group-anagrams) |
+| [0053-maximum-subarray](https://github.com/mahmoud1512/LEETCODE/tree/master/0053-maximum-subarray) |
 | [0066-plus-one](https://github.com/mahmoud1512/LEETCODE/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/mahmoud1512/LEETCODE/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/mahmoud1512/LEETCODE/tree/master/0078-subsets) |
@@ -232,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/mahmoud1512/LEETCODE/tree/master/0023-merge-k-sorted-lists) |
+| [0053-maximum-subarray](https://github.com/mahmoud1512/LEETCODE/tree/master/0053-maximum-subarray) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0148-sort-list](https://github.com/mahmoud1512/LEETCODE/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/mahmoud1512/LEETCODE/tree/master/0169-majority-element) |
@@ -444,6 +446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/mahmoud1512/LEETCODE/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/mahmoud1512/LEETCODE/tree/master/0042-trapping-rain-water) |
+| [0053-maximum-subarray](https://github.com/mahmoud1512/LEETCODE/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mahmoud1512/LEETCODE/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/mahmoud1512/LEETCODE/tree/master/0131-palindrome-partitioning) |
 | [0338-counting-bits](https://github.com/mahmoud1512/LEETCODE/tree/master/0338-counting-bits) |
