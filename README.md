@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/mahmoud1512/LEETCODE/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/mahmoud1512/LEETCODE/tree/master/0053-maximum-subarray) |
 | [0066-plus-one](https://github.com/mahmoud1512/LEETCODE/tree/master/0066-plus-one) |
+| [0073-set-matrix-zeroes](https://github.com/mahmoud1512/LEETCODE/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/mahmoud1512/LEETCODE/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/mahmoud1512/LEETCODE/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/mahmoud1512/LEETCODE/tree/master/0079-word-search) |
@@ -165,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/mahmoud1512/LEETCODE/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0036-valid-sudoku](https://github.com/mahmoud1512/LEETCODE/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/mahmoud1512/LEETCODE/tree/master/0049-group-anagrams) |
+| [0073-set-matrix-zeroes](https://github.com/mahmoud1512/LEETCODE/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/mahmoud1512/LEETCODE/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/mahmoud1512/LEETCODE/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/mahmoud1512/LEETCODE/tree/master/0128-longest-consecutive-sequence) |
@@ -271,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/mahmoud1512/LEETCODE/tree/master/0036-valid-sudoku) |
+| [0073-set-matrix-zeroes](https://github.com/mahmoud1512/LEETCODE/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/mahmoud1512/LEETCODE/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/mahmoud1512/LEETCODE/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/mahmoud1512/LEETCODE/tree/master/0130-surrounded-regions) |
