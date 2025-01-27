@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1951-find-the-winner-of-the-circular-game](https://github.com/mahmoud1512/LEETCODE/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/mahmoud1512/LEETCODE/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/mahmoud1512/LEETCODE/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/mahmoud1512/LEETCODE/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/mahmoud1512/LEETCODE/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2727-number-of-senior-citizens](https://github.com/mahmoud1512/LEETCODE/tree/master/2727-number-of-senior-citizens) |
 | [2846-robot-collisions](https://github.com/mahmoud1512/LEETCODE/tree/master/2846-robot-collisions) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1014-k-closest-points-to-origin](https://github.com/mahmoud1512/LEETCODE/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/mahmoud1512/LEETCODE/tree/master/1019-squares-of-a-sorted-array) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/mahmoud1512/LEETCODE/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/mahmoud1512/LEETCODE/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2846-robot-collisions](https://github.com/mahmoud1512/LEETCODE/tree/master/2846-robot-collisions) |
 ## String
 |  |
@@ -189,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1023-time-based-key-value-store](https://github.com/mahmoud1512/LEETCODE/tree/master/1023-time-based-key-value-store) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/mahmoud1512/LEETCODE/tree/master/1392-find-the-difference-of-two-arrays) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/mahmoud1512/LEETCODE/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/mahmoud1512/LEETCODE/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 ## Sliding Window
 |  |
 | ------- |
@@ -230,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/mahmoud1512/LEETCODE/tree/master/0011-container-with-most-water) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/mahmoud1512/LEETCODE/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/mahmoud1512/LEETCODE/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/mahmoud1512/LEETCODE/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/mahmoud1512/LEETCODE/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Divide and Conquer
 |  |
@@ -253,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0789-kth-largest-element-in-a-stream](https://github.com/mahmoud1512/LEETCODE/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/mahmoud1512/LEETCODE/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/mahmoud1512/LEETCODE/tree/master/1127-last-stone-weight) |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/mahmoud1512/LEETCODE/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/mahmoud1512/LEETCODE/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Bucket Sort
 |  |
@@ -309,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1951-find-the-winner-of-the-circular-game](https://github.com/mahmoud1512/LEETCODE/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2278-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/mahmoud1512/LEETCODE/tree/master/2278-find-three-consecutive-integers-that-sum-to-a-given-number) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/mahmoud1512/LEETCODE/tree/master/2299-merge-nodes-in-between-zeros) |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/mahmoud1512/LEETCODE/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2470-removing-stars-from-a-string](https://github.com/mahmoud1512/LEETCODE/tree/master/2470-removing-stars-from-a-string) |
 | [2645-pass-the-pillow](https://github.com/mahmoud1512/LEETCODE/tree/master/2645-pass-the-pillow) |
 | [2846-robot-collisions](https://github.com/mahmoud1512/LEETCODE/tree/master/2846-robot-collisions) |
