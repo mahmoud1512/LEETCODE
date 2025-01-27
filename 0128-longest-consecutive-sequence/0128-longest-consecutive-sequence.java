@@ -1,34 +1,26 @@
-
-//expand around a number
 class Solution {
-
-    Set<Integer>set=new HashSet<>();
-    int mx=0;
     public int longestConsecutive(int[] nums) {
-        for (int x:nums)
-        {
-            set.add(x);
+        int longestStreak = 0;
+        Set<Integer> set = new HashSet<>();
+        
+        for (int num : nums) {
+            set.add(num);
         }
-        for (int x:nums) {
-            if(!set.contains(x))
-                continue;
-            int l=1;
-            int v1=x-1;
-            int v2=x+1;
-            while (set.contains(v1))
-            {
-                set.remove(v1);
-                l++;
-                v1--;
+        
+        for (int num : set) {
+            if (!set.contains(num - 1)) { // Check if it's the start of a sequence
+                int currentNum = num;
+                int currentStreak = 0;
+                
+                while (set.contains(currentNum)) {
+                    currentStreak++;
+                    currentNum++;
+                }
+                
+                longestStreak = Math.max(longestStreak, currentStreak);
             }
-            while (set.contains(v2))
-            {
-                set.remove(v2);
-                l++;
-                v2++;
-            }
-            mx=Math.max(mx,l);
         }
-        return mx;
+        
+        return longestStreak;
     }
 }
