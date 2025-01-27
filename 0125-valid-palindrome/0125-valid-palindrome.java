@@ -1,33 +1,25 @@
-class Solution {
+public class Solution {
     public boolean isPalindrome(String s) {
-            String x="";
-            int siz=s.length();
-        for (int i = 0; i < siz; i++) {
-            if((int)s.charAt(i)<=90&&(int)s.charAt(i)>=65)
-                x=x+Character.toLowerCase(s.charAt(i));
-            else if ((int)s.charAt(i)<=122&&(int)s.charAt(i)>=97) {
-                x=x+s.charAt(i);
-            } else if ((int)s.charAt(i)<=57&&(int)s.charAt(i)>=48) {
-                x=x+s.charAt(i);
-            }
-        }
-        return solve(x);
-    }
-    boolean solve(String x)
-    {
-        int l=0,r=x.length()-1;
-        while (l<r)
-        {
-            if(!(x.charAt(l)==x.charAt(r)))
-            {
-                return false;
-            }
-            else
-            {
+        int l = 0, r = s.length() - 1;
+
+        while (l <= r) {
+            while (l < r && !alphaNum(s.charAt(l))) {
                 l++;
+            }
+            while (r > l && !alphaNum(s.charAt(r))) {
                 r--;
             }
+            if (Character.toLowerCase(s.charAt(l)) != Character.toLowerCase(s.charAt(r))) {
+                return false;
+            }
+            l++; r--;
         }
         return true;
+    }
+
+    public boolean alphaNum(char c) {
+        return (c >= 'A' && c <= 'Z' || 
+                c >= 'a' && c <= 'z' || 
+                c >= '0' && c <= '9');
     }
 }
