@@ -1,33 +1,41 @@
 class Solution {
-      Map<Integer /*data*/, Integer /*Frequency*/> FreQmap=new HashMap<>();
+
+
     public int[] topKFrequent(int[] nums, int k) {
-          for (int x:nums)
-          {
-              if(!FreQmap.containsKey(x))
-              {
-                  FreQmap.put(x,1);
-              }
-              else
-                  FreQmap.put(x,FreQmap.get(x)+1);
-          }
-          PriorityQueue<Map.Entry<Integer,Integer>>pq=new PriorityQueue<>((e1,e2)->e1.getValue().compareTo(e2.getValue()));
-          for (Map.Entry<Integer,Integer> x: FreQmap.entrySet())
-          {
-              if(pq.size()<k)
-                  pq.add(x);
-              else
-              {
-                  if(FreQmap.get(pq.peek().getKey())<FreQmap.get(x.getKey()))
-                  {
-                      pq.poll();
-                      pq.add(x);
-                  }
-              }
-          }
-          int[]ans=new int[k];
-        for (int i = 0; i < k; i++) {
-            ans[i]= pq.poll().getKey();
+         int[]answer=new int[k];
+         k=k-1;
+         int length=nums.length;
+         Map<Integer,Integer>frequencyCounter=new HashMap<>();
+         ArrayList<LinkedList<Integer>> reverseCountSort=new ArrayList<>(length+1);
+         for (int i = 0; i < length+1; i++) {
+            reverseCountSort.add(new LinkedList<>());
         }
-        return ans;
+
+
+        for (int num:nums) {
+            if(frequencyCounter.containsKey(num))
+            {
+                frequencyCounter.put(num, frequencyCounter.get(num)+1);
+            }
+            else
+            {
+                frequencyCounter.put(num,1);
+            }
+        }
+
+        for (int key:frequencyCounter.keySet()) {
+
+            reverseCountSort.get(frequencyCounter.get(key)).add(key);
+        }
+        for (int i = length; i >=0 ; i--) {
+           
+            for (int val:reverseCountSort.get(i)) {
+                answer[k--]=val;
+                if(k==-1)
+                    return answer;
+            }
+
+        }
+        return null;
     }
 }
