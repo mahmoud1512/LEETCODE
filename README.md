@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/mahmoud1512/LEETCODE/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1127-last-stone-weight](https://github.com/mahmoud1512/LEETCODE/tree/master/1127-last-stone-weight) |
 | [1293-three-consecutive-odds](https://github.com/mahmoud1512/LEETCODE/tree/master/1293-three-consecutive-odds) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/mahmoud1512/LEETCODE/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/mahmoud1512/LEETCODE/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/mahmoud1512/LEETCODE/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/mahmoud1512/LEETCODE/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0883-car-fleet](https://github.com/mahmoud1512/LEETCODE/tree/master/0883-car-fleet) |
 | [1014-k-closest-points-to-origin](https://github.com/mahmoud1512/LEETCODE/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/mahmoud1512/LEETCODE/tree/master/1019-squares-of-a-sorted-array) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/mahmoud1512/LEETCODE/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/mahmoud1512/LEETCODE/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/mahmoud1512/LEETCODE/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2846-robot-collisions](https://github.com/mahmoud1512/LEETCODE/tree/master/2846-robot-collisions) |
@@ -232,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/mahmoud1512/LEETCODE/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/mahmoud1512/LEETCODE/tree/master/1023-time-based-key-value-store) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/mahmoud1512/LEETCODE/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/mahmoud1512/LEETCODE/tree/master/1352-maximum-profit-in-job-scheduling) |
 ## Greedy
 |  |
 | ------- |
@@ -467,6 +470,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0338-counting-bits](https://github.com/mahmoud1512/LEETCODE/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/mahmoud1512/LEETCODE/tree/master/0392-is-subsequence) |
 | [1236-n-th-tribonacci-number](https://github.com/mahmoud1512/LEETCODE/tree/master/1236-n-th-tribonacci-number) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/mahmoud1512/LEETCODE/tree/master/1352-maximum-profit-in-job-scheduling) |
 ## Monotonic Stack
 |  |
 | ------- |
