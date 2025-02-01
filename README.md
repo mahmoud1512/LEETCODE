@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/mahmoud1512/LEETCODE/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/mahmoud1512/LEETCODE/tree/master/0540-single-element-in-a-sorted-array) |
 | [0628-maximum-product-of-three-numbers](https://github.com/mahmoud1512/LEETCODE/tree/master/0628-maximum-product-of-three-numbers) |
+| [0682-baseball-game](https://github.com/mahmoud1512/LEETCODE/tree/master/0682-baseball-game) |
 | [0695-max-area-of-island](https://github.com/mahmoud1512/LEETCODE/tree/master/0695-max-area-of-island) |
 | [0735-asteroid-collision](https://github.com/mahmoud1512/LEETCODE/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/mahmoud1512/LEETCODE/tree/master/0739-daily-temperatures) |
@@ -321,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0682-baseball-game](https://github.com/mahmoud1512/LEETCODE/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/mahmoud1512/LEETCODE/tree/master/0735-asteroid-collision) |
 | [1642-water-bottles](https://github.com/mahmoud1512/LEETCODE/tree/master/1642-water-bottles) |
 | [1803-average-waiting-time](https://github.com/mahmoud1512/LEETCODE/tree/master/1803-average-waiting-time) |
@@ -355,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/mahmoud1512/LEETCODE/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/mahmoud1512/LEETCODE/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/mahmoud1512/LEETCODE/tree/master/0503-next-greater-element-ii) |
+| [0682-baseball-game](https://github.com/mahmoud1512/LEETCODE/tree/master/0682-baseball-game) |
 | [0726-number-of-atoms](https://github.com/mahmoud1512/LEETCODE/tree/master/0726-number-of-atoms) |
 | [0735-asteroid-collision](https://github.com/mahmoud1512/LEETCODE/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/mahmoud1512/LEETCODE/tree/master/0739-daily-temperatures) |
