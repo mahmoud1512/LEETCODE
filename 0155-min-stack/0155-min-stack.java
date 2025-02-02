@@ -1,34 +1,44 @@
+class element
+{
+    int data;
+    int min;
+
+    public element(int data, int min) {
+        this.data = data;
+        this.min = min;
+    }
+}
 class MinStack {
-   Stack<Integer>stack;
-   Stack<Integer>min;
-   int mn=Integer.MAX_VALUE;
+
+    Stack<element>elements;
+    int mn;
     public MinStack() {
-          stack=new Stack<>();
-          min=new Stack<>();
+        elements=new Stack<>();
+        mn=Integer.MAX_VALUE;
+
     }
 
     public void push(int val) {
-        if(val<mn)
-            mn=val;
-          stack.push(val);
-          min.push(mn);
+         if (val<mn)
+             mn=val;
+         elements.push(new element(val,mn));
     }
 
     public void pop() {
-
-           stack.pop();
-           min.pop();
-         if(!min.isEmpty())  
-           mn=min.peek();
-         else
-         mn=Integer.MAX_VALUE;
+        elements.pop();
+        if(!elements.isEmpty())
+            mn=elements.peek().min;
+        else
+        {
+           mn=Integer.MAX_VALUE;   // if stack returns to empty one
+        }    
     }
 
     public int top() {
-         return stack.peek();
+       return elements.peek().data;
     }
 
     public int getMin() {
-         return min.peek();
+       return elements.peek().min;
     }
 }
