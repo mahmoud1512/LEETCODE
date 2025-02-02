@@ -1,6 +1,5 @@
 class Solution {
     public boolean check(int[] nums) {
-         int min=Integer.MAX_VALUE;
          int minIndex=-1;
          int len=nums.length;
         for (int i = 1; i < len; i++) {
