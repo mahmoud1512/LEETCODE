@@ -1,53 +1,41 @@
 class Solution {
-    int siz;
-    int mx;
-    List<String>ans=new ArrayList<>();
+    char[]arr;
+    List<String>ans;
+    int len;
+
     public List<String> generateParenthesis(int n) {
-        siz=2*n-2;
-        mx=n;
-        char[]arr=new char[2*n];
-        generate(1,0,arr);
-        return ans;
+          arr=new char[n*2];
+          Arrays.fill(arr,'.');
+          ans=new ArrayList<>();
+          len=2*n;
+          solve(0,0);
+          return ans;
     }
-    void generate(int num,int place,char[]arr)
-    {
 
-        if(num>mx)
-            return;
-        if (place>siz)
-            return;
-        arr[place]='(';
-        if(num==mx) {
-            close(arr);
+    private void solve(int open, int closed) {
+        if (open==len/2 && closed==len/2)
+        {
+            ans.add(new String(arr));
             return;
         }
-        int l=num+1;
-        for (int i = 1; i <=siz ; i++) {
-            int v=place+i;
-            if(v<=siz)
-                generate(l,v,arr.clone());
+        if(open==len/2)
+        {
+            arr[open+closed]=')';
+            solve(open,closed+1);
+            arr[open+closed]='.';
         }
+        if(open<len/2)
+        {
+            arr[open+closed]='(';
+            solve(open+1,closed);
+            arr[open+closed]='.';
 
-
-    }
-    void close(char[]arr)
-    {
-        int size=2*mx;
-        int before=0;
-        int after=0;
-        for (int i = 0; i < size; i++) {
-            if(arr[i]=='(')
+            if(open>closed)
             {
-                  if(after>before)
-                      return;
-                  before++;
-            }
-            else
-            {
-                   arr[i]=')';
-                   after++;
+                arr[open+closed]=')';
+                solve(open,closed+1);
+                arr[open+closed]='.';
             }
         }
-        ans.add(new String(arr));
     }
 }
