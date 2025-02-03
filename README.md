@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2616-maximal-score-after-applying-k-operations](https://github.com/mahmoud1512/LEETCODE/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2727-number-of-senior-citizens](https://github.com/mahmoud1512/LEETCODE/tree/master/2727-number-of-senior-citizens) |
 | [2846-robot-collisions](https://github.com/mahmoud1512/LEETCODE/tree/master/2846-robot-collisions) |
+| [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/mahmoud1512/LEETCODE/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/mahmoud1512/LEETCODE/tree/master/3429-special-array-i) |
 ## Two Pointers
 |  |
