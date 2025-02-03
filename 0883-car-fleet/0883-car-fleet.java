@@ -1,31 +1,28 @@
+class car
+{
+    int position;
+    int speed;
+}
+
 class Solution {
-    Map<Integer,Integer>map=new HashMap<>();
-    int fast;
     public int carFleet(int target, int[] position, int[] speed) {
-        //Position-Speed pairs
-        int size= position.length;
-        for (int i = 0; i < size; i++) {
-            map.put(position[i],speed[i]);
+        int len=position.length;
+        car[]cars=new car[len];
+        for (int i = 0; i < len; i++) {
+              car c=new car();
+              c.position=position[i];
+              c.speed=speed[i];
+              cars[i]=c;
         }
-        Arrays.sort(position);
-        //System.out.println(List.of(position));
-        //int l=size-1;
-        Stack<Integer>stack=new Stack<>();
-
-        for (int x:position) {
-            fast=map.get(x);
-            while(!(stack.isEmpty())&&canSubstitute(x,stack.peek(),target))
-            {
-                int c=stack.pop();   
+        Arrays.sort(cars, Comparator.comparingInt(e -> e.position));
+        Stack<Double>timeStack=new Stack<>();
+        for (int i = len-1; i >=0 ; i--) {
+            double time=(target-cars[i].position)/(double)cars[i].speed;
+            while (!timeStack.isEmpty()&&timeStack.peek()>=time){
+                time=timeStack.pop();
             }
-            stack.push(x);
-            map.put(x,fast);
+            timeStack.push(time);
         }
-
-        return stack.size();
-    }
-    boolean canSubstitute(int x,int y,int target)
-    {
-        return (long)(target-x)*map.get(y)>=(long)(target-y)*fast;
+        return timeStack.size();
     }
 }
