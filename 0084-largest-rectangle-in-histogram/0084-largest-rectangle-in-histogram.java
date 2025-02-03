@@ -1,32 +1,51 @@
 class Solution {
     public int largestRectangleArea(int[] heights) {
-        int siz=heights.length;
-        int[]nextSmallerLeft=new int[siz];
-        Arrays.fill(nextSmallerLeft,-1);
-        int[]nextSmallerRight=new int[siz];
-        Arrays.fill(nextSmallerRight,siz);
-        Stack<Integer>stack=new Stack<>();
-        for (int i = 0; i < siz; i++) {
-            while (!(stack.isEmpty())&&heights[i]<heights[stack.peek()])
+         int len=heights.length;
+         int[] output1=getLeftMonoIncreasing(heights,len);
+         int[] output2=getRightMonoIncreasing(heights,len);
+
+         int max=Integer.MIN_VALUE;
+        for (int i = 0; i < len; i++) {
+            max=Math.max(max,heights[i]*(output2[i]-output1[i]+1));
+        }
+        return max;
+    }
+
+    private int[] getRightMonoIncreasing(int[] heights, int len) {
+        int[]arr=new int[len];
+        Stack<Integer>monoStack=new Stack<>();
+        for (int i = 0; i <len ; i++) {
+            while (!monoStack.isEmpty()&&heights[i]<heights[monoStack.peek()])
             {
-                
-                nextSmallerRight[stack.pop()]=i;
+                arr[monoStack.peek()]=i-1;
+                monoStack.pop();
             }
-            stack.push(i);
+            monoStack.push(i);
         }
-        stack=new Stack<>();
-        for (int i = siz-1; i >=0 ; i--) {
-            while (!(stack.isEmpty())&&heights[i]<heights[stack.peek()])
+        while (!monoStack.isEmpty())
+        {
+            arr[monoStack.peek()]=len-1;
+            monoStack.pop();
+        }
+        return arr;
+    }
+
+    private int[] getLeftMonoIncreasing(int[] heights, int len) {
+        int[]arr=new int[len];
+        Stack<Integer>monoStack=new Stack<>();
+        for (int i = len-1; i >=0 ; i--) {
+            while (!monoStack.isEmpty()&&heights[i]<heights[monoStack.peek()])
             {
-                nextSmallerLeft[stack.pop()]=i;
+                arr[monoStack.peek()]=i+1;
+                monoStack.pop();
             }
-            stack.push(i);
+            monoStack.push(i);
         }
-        int ans=0;
-        for (int i = 0; i < siz; i++) {
-            int val=heights[i]*(nextSmallerRight[i]-nextSmallerLeft[i]-1);
-            ans=Math.max(ans,val);
+        while (!monoStack.isEmpty())
+        {
+            arr[monoStack.peek()]=0;
+            monoStack.pop();
         }
-        return ans;
+        return arr;
     }
 }
