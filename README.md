@@ -171,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2317-count-collisions-on-a-road](https://github.com/mahmoud1512/LEETCODE/tree/master/2317-count-collisions-on-a-road) |
 | [2470-removing-stars-from-a-string](https://github.com/mahmoud1512/LEETCODE/tree/master/2470-removing-stars-from-a-string) |
 | [2727-number-of-senior-citizens](https://github.com/mahmoud1512/LEETCODE/tree/master/2727-number-of-senior-citizens) |
+| [3447-clear-digits](https://github.com/mahmoud1512/LEETCODE/tree/master/3447-clear-digits) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -342,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2470-removing-stars-from-a-string](https://github.com/mahmoud1512/LEETCODE/tree/master/2470-removing-stars-from-a-string) |
 | [2645-pass-the-pillow](https://github.com/mahmoud1512/LEETCODE/tree/master/2645-pass-the-pillow) |
 | [2846-robot-collisions](https://github.com/mahmoud1512/LEETCODE/tree/master/2846-robot-collisions) |
+| [3447-clear-digits](https://github.com/mahmoud1512/LEETCODE/tree/master/3447-clear-digits) |
 ## Union Find
 |  |
 | ------- |
@@ -381,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2317-count-collisions-on-a-road](https://github.com/mahmoud1512/LEETCODE/tree/master/2317-count-collisions-on-a-road) |
 | [2470-removing-stars-from-a-string](https://github.com/mahmoud1512/LEETCODE/tree/master/2470-removing-stars-from-a-string) |
 | [2846-robot-collisions](https://github.com/mahmoud1512/LEETCODE/tree/master/2846-robot-collisions) |
+| [3447-clear-digits](https://github.com/mahmoud1512/LEETCODE/tree/master/3447-clear-digits) |
 ## Depth-First Search
 |  |
 | ------- |
