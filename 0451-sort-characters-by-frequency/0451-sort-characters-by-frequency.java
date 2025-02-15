@@ -10,16 +10,16 @@ class Solution {
         }
         List<Map.Entry<Character,Integer>>maptoList=new ArrayList<>(characterFrequencyMap.entrySet());
         maptoList.sort(Map.Entry.comparingByValue(Comparator.reverseOrder()));
-        String ans="";
+        StringBuilder ans= new StringBuilder();
         for (Map.Entry<Character,Integer>x:maptoList) {
             int val=x.getValue();
             while (val!=0)
             {
-                ans+=x.getKey();
+                ans.append(x.getKey());
                 val--;
             }
         }
-        return ans;
+        return ans.toString();
 
     }
 }
