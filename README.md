@@ -171,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/mahmoud1512/LEETCODE/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/mahmoud1512/LEETCODE/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/mahmoud1512/LEETCODE/tree/master/0345-reverse-vowels-of-a-string) |
+| [0383-ransom-note](https://github.com/mahmoud1512/LEETCODE/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/mahmoud1512/LEETCODE/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/mahmoud1512/LEETCODE/tree/master/0394-decode-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/mahmoud1512/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
@@ -221,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/mahmoud1512/LEETCODE/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/mahmoud1512/LEETCODE/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/mahmoud1512/LEETCODE/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0383-ransom-note](https://github.com/mahmoud1512/LEETCODE/tree/master/0383-ransom-note) |
 | [0424-longest-repeating-character-replacement](https://github.com/mahmoud1512/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/mahmoud1512/LEETCODE/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/mahmoud1512/LEETCODE/tree/master/0442-find-all-duplicates-in-an-array) |
@@ -314,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/mahmoud1512/LEETCODE/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/mahmoud1512/LEETCODE/tree/master/0347-top-k-frequent-elements) |
+| [0383-ransom-note](https://github.com/mahmoud1512/LEETCODE/tree/master/0383-ransom-note) |
 ## Quickselect
 |  |
 | ------- |
