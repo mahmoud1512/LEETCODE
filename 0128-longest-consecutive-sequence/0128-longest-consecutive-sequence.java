@@ -7,7 +7,7 @@ class Solution {
             set.add(num);
         }
         
-        for (int num : set) {
+        for (int num : set) {    //iterate on set directly 0,1,1,2  answer is 3
             if (!set.contains(num - 1)) { // Check if it's the start of a sequence
                 int currentNum = num;
                 int currentStreak = 0;
