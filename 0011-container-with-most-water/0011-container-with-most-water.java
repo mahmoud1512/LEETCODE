@@ -1,30 +1,18 @@
 class Solution {
     public int maxArea(int[] height) {
-         int l=0,r=height.length-1,mx=0;
-         while(l<r)
-         {
-             int min=0;boolean ord=true;
-             if(height[l]<=height[r])
-             {
-                 min=height[l];
-             }
-             else
-             {
-                 min=height[r];
-                 ord=false;
-             }
-             mx=Math.max(min*(r-l),mx);
-             //How to update pointers
-             if(ord)
-             {
-                 l++;
-             }
-             else
-             {
-                 r--;
-             }
-             
-         }
-         return mx;
+           
+        int left=0,right=height.length-1;
+        int currentArea;
+        int maxArea=Integer.MIN_VALUE;
+        while (left<right)
+        {
+            currentArea=Math.min(height[left],height[right])*(right-left);
+            maxArea=Math.max(maxArea,currentArea);
+            if(height[left]<=height[right])
+                left++;
+            else 
+                right--;
+        }
+        return maxArea;
     }
 }
