@@ -1,25 +1,28 @@
-public class Solution {
+class Solution {
     public boolean isPalindrome(String s) {
-        int l = 0, r = s.length() - 1;
 
-        while (l <= r) {
-            while (l < r && !alphaNum(s.charAt(l))) {
+        int l=0,r=s.length()-1;
+        while (l<=r)   // اقصى حاجة انا سمحت بيها انهم يعدوا بعض بواحد
+        {
+            while(!alphanumeric(s.charAt(l))&&l<r)    // اقصى حاجة سمحت بيها التساوي
                 l++;
-            }
-            while (r > l && !alphaNum(s.charAt(r))) {
+            while (!alphanumeric(s.charAt(r))&&l<r)
+                r--;
+
+            if(Character.toLowerCase(s.charAt(l))!=Character.toLowerCase(s.charAt(r)))
+                return false;
+            else
+            {
+                l++;
                 r--;
             }
-            if (Character.toLowerCase(s.charAt(l)) != Character.toLowerCase(s.charAt(r))) {
-                return false;
-            }
-            l++; r--;
+
         }
         return true;
+
     }
 
-    public boolean alphaNum(char c) {
-        return (c >= 'A' && c <= 'Z' || 
-                c >= 'a' && c <= 'z' || 
-                c >= '0' && c <= '9');
+    private boolean alphanumeric(char c) {
+        return Character.isDigit(c)||Character.isAlphabetic(c);
     }
 }
