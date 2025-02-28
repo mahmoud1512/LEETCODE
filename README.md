@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0883-car-fleet](https://github.com/mahmoud1512/LEETCODE/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/mahmoud1512/LEETCODE/tree/master/0907-koko-eating-bananas) |
 | [0917-boats-to-save-people](https://github.com/mahmoud1512/LEETCODE/tree/master/0917-boats-to-save-people) |
+| [0954-maximum-sum-circular-subarray](https://github.com/mahmoud1512/LEETCODE/tree/master/0954-maximum-sum-circular-subarray) |
 | [1014-k-closest-points-to-origin](https://github.com/mahmoud1512/LEETCODE/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/mahmoud1512/LEETCODE/tree/master/1019-squares-of-a-sorted-array) |
 | [1036-rotting-oranges](https://github.com/mahmoud1512/LEETCODE/tree/master/1036-rotting-oranges) |
@@ -296,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0191-number-of-1-bits](https://github.com/mahmoud1512/LEETCODE/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mahmoud1512/LEETCODE/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/mahmoud1512/LEETCODE/tree/master/0347-top-k-frequent-elements) |
+| [0954-maximum-sum-circular-subarray](https://github.com/mahmoud1512/LEETCODE/tree/master/0954-maximum-sum-circular-subarray) |
 | [1014-k-closest-points-to-origin](https://github.com/mahmoud1512/LEETCODE/tree/master/1014-k-closest-points-to-origin) |
 ## Heap (Priority Queue)
 |  |
@@ -530,6 +532,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/mahmoud1512/LEETCODE/tree/master/0131-palindrome-partitioning) |
 | [0338-counting-bits](https://github.com/mahmoud1512/LEETCODE/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/mahmoud1512/LEETCODE/tree/master/0392-is-subsequence) |
+| [0954-maximum-sum-circular-subarray](https://github.com/mahmoud1512/LEETCODE/tree/master/0954-maximum-sum-circular-subarray) |
 | [1236-n-th-tribonacci-number](https://github.com/mahmoud1512/LEETCODE/tree/master/1236-n-th-tribonacci-number) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/mahmoud1512/LEETCODE/tree/master/1352-maximum-profit-in-job-scheduling) |
 ## Monotonic Stack
@@ -557,6 +560,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/mahmoud1512/LEETCODE/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/mahmoud1512/LEETCODE/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/mahmoud1512/LEETCODE/tree/master/0239-sliding-window-maximum) |
+| [0954-maximum-sum-circular-subarray](https://github.com/mahmoud1512/LEETCODE/tree/master/0954-maximum-sum-circular-subarray) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/mahmoud1512/LEETCODE/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Backtracking
 |  |
@@ -703,6 +707,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/mahmoud1512/LEETCODE/tree/master/0239-sliding-window-maximum) |
+| [0954-maximum-sum-circular-subarray](https://github.com/mahmoud1512/LEETCODE/tree/master/0954-maximum-sum-circular-subarray) |
 ## Memoization
 |  |
 | ------- |
