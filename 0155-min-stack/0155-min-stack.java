@@ -2,43 +2,48 @@ class element
 {
     int data;
     int min;
-
-    public element(int data, int min) {
-        this.data = data;
-        this.min = min;
-    }
 }
+
 class MinStack {
 
-    Stack<element>elements;
-    int mn;
-    public MinStack() {
-        elements=new Stack<>();
-        mn=Integer.MAX_VALUE;
+    Stack<element>elementStack;
 
+    public MinStack() {
+        elementStack=new Stack<>();
     }
 
     public void push(int val) {
-         if (val<mn)
-             mn=val;
-         elements.push(new element(val,mn));
+        element e=new element();
+        e.data=val;
+        if (elementStack.isEmpty())
+        {
+            e.min=val;
+        }
+        else
+        {
+            e.min=Math.min(val,elementStack.peek().min);
+        }
+        elementStack.push(e);
     }
 
     public void pop() {
-        elements.pop();
-        if(!elements.isEmpty())
-            mn=elements.peek().min;
-        else
-        {
-           mn=Integer.MAX_VALUE;   // if stack returns to empty one
-        }    
+       elementStack.pop();
     }
 
     public int top() {
-       return elements.peek().data;
+         return elementStack.peek().data;
     }
 
     public int getMin() {
-       return elements.peek().min;
+         return elementStack.peek().min;
     }
 }
+
+/**
+ * Your MinStack object will be instantiated and called as such:
+ * MinStack obj = new MinStack();
+ * obj.push(val);
+ * obj.pop();
+ * int param_3 = obj.top();
+ * int param_4 = obj.getMin();
+ */
