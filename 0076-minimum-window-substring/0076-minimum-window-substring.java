@@ -1,62 +1,45 @@
 class Solution {
 
-    int[]arrT=new int[60];
-    int[]arrS=new int[60];
-    //      Map<Character,Integer>mpT=new HashMap<>();
-//      Map<Character,Integer>mpS=new HashMap<>();
-    int siz1,siz2;
-    int l=0,r=0;
+
     public String minWindow(String s, String t) {
-        siz1=t.length();
-        siz2=s.length();
-        for (int i = 0; i < siz1; i++) {
-            char x=t.charAt(i);
-            arrT[x-'A']++;
+
+        int lenS=s.length();
+        int lenT=t.length();
+        Map<Character,Integer>freqMapT=new HashMap<>();
+        for (int i = 0; i < lenT; i++) {
+            freqMapT.merge(t.charAt(i), 1, Integer::sum);
+        }
+        String minWidow=".";
+        int l=0;  // initialize left
+        // window state
+        Map<Character,Integer>freqMapS=new HashMap<>();
+
+        for (int i = 0; i < lenS; i++) {
+
+            freqMapS.merge(s.charAt(i),1,Integer::sum);
+            while(satisfiesCondition(freqMapT,freqMapS)&&l<=i)
+            {
+                if(minWidow.equals(".")||minWidow.length()>=i-l+1)
+                {
+                    minWidow=s.substring(l,i+1);
+                }
+                freqMapS.put(s.charAt(l),freqMapS.get(s.charAt(l))-1);
+                l++;
+            }
+
         }
 
-        int min=Integer.MAX_VALUE;int st=-1,end=-1;
-        while (l<siz2)
-        {
-            while (r<siz2&&can(s.charAt(r)))
-            {
-                char x=s.charAt(r);
-                arrS[x-'A']++;
-                r++;
-            }
-            boolean c=checkend();
-            if(c&&(r-l)<min)
-            {
-                min=r-l;
-                st=l;
-                end=r-1;
-            }
-            char x=s.charAt(l);
-            arrS[x-'A']--;
-            l++;
-        }
-        if(min!=Integer.MAX_VALUE)
-        {
-            String ans="";
-            for (int i = st; i <=end ; i++) {
-                ans+=s.charAt(i);
-            }
-            return ans;
-        }
-        return "";
-    }
-    boolean can(char p)
-    {
-        // if(arrT[p-'A']==0)
-             return !checkend();
-        
-       // return arrS[p-'A']+1<=arrT[p-'A'];
+        return minWidow.equals(".")?"":minWidow;
+
 
     }
-    boolean checkend()
+    private boolean satisfiesCondition(Map<Character,Integer>x1,Map<Character,Integer>x2)
     {
-        for (int i=0;i<60;i++)
+        for (Character c:x1.keySet())
         {
-            if(arrS[i]<arrT[i])
+            if(!x2.containsKey(c))
+                return false;
+            if(x1.get(c)>x2.get(c))
                 return false;
         }
         return true;
