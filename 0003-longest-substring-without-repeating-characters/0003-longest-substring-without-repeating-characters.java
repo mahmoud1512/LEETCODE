@@ -1,20 +1,26 @@
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-           int siz=s.length();
-           int l=0,r=0;
-           Set<Character>DistinctChars=new HashSet<>();
-           int ans=0;
-           while(l<siz)
-           {
-               while (r<siz&&(DistinctChars.contains(s.charAt(r))==false))
-               {
-                   DistinctChars.add(s.charAt(r));
-                   r++;
-               }
-               ans=Math.max(ans,r-l);
-               DistinctChars.remove(s.charAt(l));
-               l++;
-           }
-       return ans;
+        
+        int len=s.length();
+        // sliding window with condition that all characters are unique
+        // when entering a new element we must empty its duplicates from window
+        // then check the max length;
+        int maxLen=0;
+        int left=0;
+        Set<Character>discoverdElements=new HashSet<>();  // window state
+
+        for (int i = 0; i < len ; i++) {
+            
+            while (discoverdElements.contains(s.charAt(i)))
+            {
+                discoverdElements.remove(s.charAt(left));
+                left++;
+            }
+            discoverdElements.add(s.charAt(i));
+            maxLen=Math.max(maxLen,i-left+1);
+                
+        }
+        return maxLen;
+        
     }
 }
