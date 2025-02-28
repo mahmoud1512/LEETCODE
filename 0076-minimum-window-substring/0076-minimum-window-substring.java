@@ -1,46 +1,54 @@
-class Solution {
 
+
+class Solution {
+    private int[] countT;
+    private List<Character> requiredChars;
 
     public String minWindow(String s, String t) {
+        if (s.isEmpty() || t.isEmpty()) return "";
 
-        int lenS=s.length();
-        int lenT=t.length();
-        Map<Character,Integer>freqMapT=new HashMap<>();
-        for (int i = 0; i < lenT; i++) {
-            freqMapT.merge(t.charAt(i), 1, Integer::sum);
+        // Initialize countT and requiredChars
+        countT = new int[128];
+        requiredChars = new ArrayList<>();
+        for (char c : t.toCharArray()) {
+            countT[c]++;
         }
-        String minWidow=".";
-        int l=0;  // initialize left
-        // window state
-        Map<Character,Integer>freqMapS=new HashMap<>();
-
-        for (int i = 0; i < lenS; i++) {
-
-            freqMapS.merge(s.charAt(i),1,Integer::sum);
-            while(satisfiesCondition(freqMapT,freqMapS)&&l<=i)
-            {
-                if(minWidow.equals(".")||minWidow.length()>=i-l+1)
-                {
-                    minWidow=s.substring(l,i+1);
-                }
-                freqMapS.put(s.charAt(l),freqMapS.get(s.charAt(l))-1);
-                l++;
+        for (int i = 0; i < 128; i++) {
+            if (countT[i] > 0) {
+                requiredChars.add((char) i);
             }
-
         }
 
-        return minWidow.equals(".")?"":minWidow;
+        int lenS = s.length();
+        String minWindow = "."; // Placeholder for an invalid window
+        int left = 0;
+        int[] countS = new int[128];
 
+        for (int right = 0; right < lenS; right++) {
+            char currentChar = s.charAt(right);
+            countS[currentChar]++;
 
+            // Try to shrink the window as much as possible while maintaining the condition
+            while (left <= right && satisfiesCondition(countS)) {
+                int currentWindowLength = right - left + 1;
+                if (minWindow.equals(".") || currentWindowLength < minWindow.length()) {
+                    minWindow = s.substring(left, right + 1);
+                }
+                // Move the left pointer to shrink the window
+                char leftChar = s.charAt(left);
+                countS[leftChar]--;
+                left++;
+            }
+        }
+
+        return minWindow.equals(".") ? "" : minWindow;
     }
-    private boolean satisfiesCondition(Map<Character,Integer>x1,Map<Character,Integer>x2)
-    {
-        for (Character c:x1.keySet())
-        {
-            if(!x2.containsKey(c))
+
+    private boolean satisfiesCondition(int[] countS) {
+        for (char c : requiredChars) {
+            if (countS[c] < countT[c]) {
                 return false;
-            if(x1.get(c)>x2.get(c))
-                return false;
+            }
         }
         return true;
     }
