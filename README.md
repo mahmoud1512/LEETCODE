@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2306-create-binary-tree-from-descriptions](https://github.com/mahmoud1512/LEETCODE/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/mahmoud1512/LEETCODE/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/mahmoud1512/LEETCODE/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [2551-apply-operations-to-an-array](https://github.com/mahmoud1512/LEETCODE/tree/master/2551-apply-operations-to-an-array) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/mahmoud1512/LEETCODE/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2727-number-of-senior-citizens](https://github.com/mahmoud1512/LEETCODE/tree/master/2727-number-of-senior-citizens) |
 | [2846-robot-collisions](https://github.com/mahmoud1512/LEETCODE/tree/master/2846-robot-collisions) |
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0917-boats-to-save-people](https://github.com/mahmoud1512/LEETCODE/tree/master/0917-boats-to-save-people) |
 | [1019-squares-of-a-sorted-array](https://github.com/mahmoud1512/LEETCODE/tree/master/1019-squares-of-a-sorted-array) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/mahmoud1512/LEETCODE/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
+| [2551-apply-operations-to-an-array](https://github.com/mahmoud1512/LEETCODE/tree/master/2551-apply-operations-to-an-array) |
 ## Sorting
 |  |
 | ------- |
@@ -380,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2317-count-collisions-on-a-road](https://github.com/mahmoud1512/LEETCODE/tree/master/2317-count-collisions-on-a-road) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/mahmoud1512/LEETCODE/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2470-removing-stars-from-a-string](https://github.com/mahmoud1512/LEETCODE/tree/master/2470-removing-stars-from-a-string) |
+| [2551-apply-operations-to-an-array](https://github.com/mahmoud1512/LEETCODE/tree/master/2551-apply-operations-to-an-array) |
 | [2645-pass-the-pillow](https://github.com/mahmoud1512/LEETCODE/tree/master/2645-pass-the-pillow) |
 | [2846-robot-collisions](https://github.com/mahmoud1512/LEETCODE/tree/master/2846-robot-collisions) |
 | [3447-clear-digits](https://github.com/mahmoud1512/LEETCODE/tree/master/3447-clear-digits) |
