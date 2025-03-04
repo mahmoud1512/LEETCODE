@@ -1,56 +1,41 @@
-class Solution {
-    boolean[][]visited;
-    boolean[][]visited2;
-    boolean state;
+public class Solution {
     public void solve(char[][] board) {
-
-        visited=new boolean[board.length][board[0].length];
-        visited2=new boolean[board.length][board[0].length];
+        if(board == null || board.length == 0) return;
         
-        for (int i = 0; i <board.length ; i++) {
-            for (int j = 0; j <board[0].length ; j++) {
-                state=false;
-                if(board[i][j]=='O'&&!visited[i][j])
-                {
-                    dfs(i,j,board);
-                    if(!state)
-                    {
-                        makeX(i,j,board);
-                    }
+        int rows = board.length, cols = board[0].length;
+        
+        // Mark all 'O's connected to borders as safe ('E')
+        for (int i = 0; i < rows; i++) {
+            dfs(board, i, 0, rows, cols);
+            dfs(board, i, cols - 1, rows, cols);
+        }
+        for (int j = 0; j < cols; j++) {
+            dfs(board, 0, j, rows, cols);
+            dfs(board, rows - 1, j, rows, cols);
+        }
+        
+        // Flip remaining 'O's to 'X' and revert 'E's back to 'O'
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if(board[i][j] == 'O') {
+                    board[i][j] = 'X';
+                } else if(board[i][j] == 'E') {
+                    board[i][j] = 'O';
                 }
             }
         }
-
     }
-
-    private void makeX(int i, int j, char[][] board) {
-        if(i<0||j<0||i>=board.length||j>=board[0].length)
-        {
-            return;
-        } else if (board[i][j]=='X'||visited2[i][j]) {
+    
+    private void dfs(char[][] board, int i, int j, int rows, int cols) {
+        if(i < 0 || i >= rows || j < 0 || j >= cols || board[i][j] != 'O') {
             return;
         }
-        visited2[i][j]=true;
-        board[i][j]='X';
-        makeX(i-1,j,board);
-        makeX(i+1,j,board);
-        makeX(i,j+1,board);
-        makeX(i,j-1,board);
-    }
-
-    private void dfs(int i, int j, char[][] board) {
-        if(i<0||j<0||i>=board.length||j>=board[0].length)
-        {
-            state=true;
-            return;
-        } else if (board[i][j]=='X'||visited[i][j]) {
-            return;
-        }
-        visited[i][j]=true;
-        dfs(i-1,j,board);
-        dfs(i+1,j,board);
-        dfs(i,j+1,board);
-        dfs(i,j-1,board);
         
+        board[i][j] = 'E'; // Mark cell as safe
+        
+        dfs(board, i - 1, j, rows, cols);
+        dfs(board, i + 1, j, rows, cols);
+        dfs(board, i, j - 1, rows, cols);
+        dfs(board, i, j + 1, rows, cols);
     }
 }
