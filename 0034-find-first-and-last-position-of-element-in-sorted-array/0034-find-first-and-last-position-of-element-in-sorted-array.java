@@ -30,7 +30,7 @@ class Solution {
                    if(nums[mid]==target)
                    {
                        ans[1]=mid;
-                       l=mid+1;    //try to capture first occurrence
+                       l=mid+1;    //try to capture last occurrence
 
                    }
                    else if (nums[mid]<target) {
