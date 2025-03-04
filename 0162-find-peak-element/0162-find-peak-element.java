@@ -1,59 +1,51 @@
 class Solution {
-      int[]temp;
-      int siz;
+
     public int findPeakElement(int[] nums) {
-        siz=nums.length;
-        if(siz==1)
-           return 0;
-           int l=0,r=siz-1;
-           temp=nums;
-           while(l<=r)
-           {
-               int m=l+(r-l)/2;
-               int ans=can(m);
-               if(ans==0)
-               {
-                   return m;
-               }
-               else if(ans==1)
-               {
-                   l=m+1;
-               }
-               else 
-                   r=m-1;
-           }
-           return 0;
-    }
-    int can(int m)
-    {
-        if(m==0)
+
+        int len=nums.length;
+        int l=0,r=len-1;
+        int m = 0;
+        while (l<=r)
         {
-            if(temp[0]>temp[1])
+            m=(l+r)/2;
+            int res=can(m,len,nums);
+            if(res==0)
             {
-                return 0;
+                return m;
+            }
+            else if(res==1)
+            {
+                l=m+1;
             }
             else
             {
-                return 1;
+                r=m-1;
             }
         }
-        else if (m==siz-1) {
-            if(temp[m]>temp[m-1])
-            {
-                return 0;
-            } 
-            else  {
-                return -1;
-            }
+        return m;
+    }
+
+    private int can(int m, int len,int[]nums) {
+
+        if(m==0&&len!=1)
+        {
+            return nums[m+1]<nums[m]?0:1;
+        } else if (m==0) {
+            return m;
+        } else if (m==len-1&&len>1) {
+            return nums[m-1]<nums[m]?0:-1;
+        } else if (m==len-1) {
+            return 0;
         }
         else
         {
-            if(temp[m]>temp[m+1]&&temp[m]>temp[m-1])
-                return 0;
-            else if(temp[m+1]>temp[m])
+            if(nums[m+1]>nums[m])
                 return 1;
-            else 
+            else if (nums[m-1]>nums[m]) {
                 return -1;
+            }
+            else 
+                return 0;
         }
     }
 }
