@@ -1,24 +1,14 @@
 class Solution {
-    int width;int length;
     public boolean searchMatrix(int[][] matrix, int target) {
-         width=matrix.length;length=matrix[0].length;
-         int l=0,r=width*length-1;
-         while (l<=r)
-         { 
-            int m=(l+r)/2;
-            int []mapped=mapper(m);
-            int val=matrix[mapped[0]][mapped[1]];
-            if(val==target)
-                return true;
-            else if (val<target)
-                 l=m+1;
-            else
-                r=m-1;
-         }
-        return false;
-    }
-    int[]mapper(int x)
-    {
-        return new int[]{x/length,x%length};
+        int n=matrix.length; int m=matrix[0].length;
+        int k=0;
+        int[]nums=new int[n*m];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                nums[k]=matrix[i][j];
+                k++;
+            }
+        }
+        return Arrays.binarySearch(nums,target)>=0;
     }
 }
