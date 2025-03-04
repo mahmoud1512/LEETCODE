@@ -358,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/mahmoud1512/LEETCODE/tree/master/0009-palindrome-number) |
 | [0066-plus-one](https://github.com/mahmoud1512/LEETCODE/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/mahmoud1512/LEETCODE/tree/master/0069-sqrtx) |
+| [0070-climbing-stairs](https://github.com/mahmoud1512/LEETCODE/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/mahmoud1512/LEETCODE/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/mahmoud1512/LEETCODE/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/mahmoud1512/LEETCODE/tree/master/0202-happy-number) |
@@ -540,6 +541,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/mahmoud1512/LEETCODE/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/mahmoud1512/LEETCODE/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/mahmoud1512/LEETCODE/tree/master/0053-maximum-subarray) |
+| [0070-climbing-stairs](https://github.com/mahmoud1512/LEETCODE/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/mahmoud1512/LEETCODE/tree/master/0072-edit-distance) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mahmoud1512/LEETCODE/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/mahmoud1512/LEETCODE/tree/master/0131-palindrome-partitioning) |
@@ -725,6 +727,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/mahmoud1512/LEETCODE/tree/master/0070-climbing-stairs) |
 | [1236-n-th-tribonacci-number](https://github.com/mahmoud1512/LEETCODE/tree/master/1236-n-th-tribonacci-number) |
 ## Trie
 |  |
