@@ -1,39 +1,49 @@
 class Solution {
-    int n, m;
-    int[][] DP;
-
+    int [][]dp;
+    int n;
+    int m;
+    String s1;
+    String s2;
     public int minDistance(String word1, String word2) {
+           n=word1.length(); m=word2.length();
+           dp=new int[n][m];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                dp[i][j]=Integer.MAX_VALUE;
 
-        n = word1.length();
-        m = word2.length();
-        DP = new int[n + 1][m + 1];
-        for (int i = 0; i < n + 1; i++) {
-            Arrays.fill(DP[i], -1);
+            }
         }
-        return solve(word1, 0, word2, 0);
+           s1=word1;s2=word2;
+           return solve(0,0);
     }
 
-    private int solve(String word1, int i, String word2, int j) {
-
-        if (j == m) {
-            return (n - i);
-        } else if (i == n) {
-            return (m - j);
+    int solve(int i,int j)
+    {
+        if(i==n&&j<m)
+        {
+            return m-j;
+        } else if (i<n&&j==m) {
+            return n-i;
         }
-        if (DP[i][j] != -1) {
-            return DP[i][j];
-        } else {
-            if (word1.charAt(i) == word2.charAt(j)) {
-                DP[i][j] = solve(word1, i + 1, word2, j + 1);
+        else if(i==n&&j==m)
+        {
+            return 0;
+        }
+        if(dp[i][j]!=Integer.MAX_VALUE)
+        {
+            return dp[i][j];
+        } else if (s1.charAt(i)==s2.charAt(j)) {
+            dp[i][j]=solve(i+1,j+1);
+        }
+        else
+        {
 
-            }
-            else {
-                DP[i][j] = Math.min(1 + solve(word1, i + 1, word2, j), Math.min(1 + solve(word1, i, word2, j + 1), 1 + solve(word1, i + 1, word2, j + 1)));
-            }
-            return DP[i][j];
-
+            dp[i][j]=Math.min(dp[i][j],1+solve(i,j+1)); //insert
+            dp[i][j]=Math.min(dp[i][j],1+solve(i+1,j)); //delete
+            dp[i][j]=Math.min(dp[i][j],1+solve(i+1,j+1)); //replace
         }
 
+        return dp[i][j];
 
     }
 }
