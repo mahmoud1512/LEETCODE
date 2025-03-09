@@ -15,35 +15,33 @@
  */
 class Solution {
     public List<Integer> rightSideView(TreeNode root) {
-         List<Integer>ans=new ArrayList<>();
-        Queue<TreeNode>BFS_Queue=new ArrayDeque<>();
-         if(root==null)
-             return ans;
-         BFS_Queue.add(root);
-         int level=1;
-         int count;
-         while (!BFS_Queue.isEmpty())
-         {
-             count=0;
-             for (int i=0;i<level;i++)
-             {
-                 TreeNode x=BFS_Queue.poll();
-                 if (i==level-1)
-                     ans.add(x.val);
-                 if(x.left!=null)
-                 {
-                     count++;
-                     BFS_Queue.add(x.left);
-                 }
-                 if (x.right!=null)
-                 {
-                     count++;
-                     BFS_Queue.add(x.right);
-                 }
-             }
-             level=count;
-             
-         }
-         return ans;
+        int q=0;
+        int l=1;
+        List<Integer>ans=new ArrayList<>();
+        if(root==null)
+           return ans;
+        ArrayDeque<TreeNode>nodes=new ArrayDeque<>();
+        nodes.add(root);
+        while (!nodes.isEmpty()) {
+            q=0;
+            for (int i = 0; i < l; i++) {
+
+                TreeNode x = nodes.pop();
+                if (i == l - 1) {
+                    ans.add(x.val);
+                }
+                if (x.left != null) {
+                    nodes.add(x.left);
+                    q++;
+                }
+                if (x.right != null) {
+                    nodes.add(x.right);
+                    q++;
+                }
+                
+            }
+            l=q;
+        }
+        return ans;
     }
 }
