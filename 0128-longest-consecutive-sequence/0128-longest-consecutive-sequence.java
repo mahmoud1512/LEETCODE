@@ -3,7 +3,7 @@ class Solution {
         int longestStreak = 0;
         Set<Integer> set = new HashSet<>();
         
-        for (int num : nums) {
+        for (int num : nums) {  // add all numbers to set , to easily determine 
             set.add(num);
         }
         
