@@ -14,8 +14,7 @@ class Solution {
                 return true;
             else {
                 n = x;
-               //x=getDigitSum(n);
-                digitsSums.add(x);
+                digitsSums.add(n);
             }
 
         }
