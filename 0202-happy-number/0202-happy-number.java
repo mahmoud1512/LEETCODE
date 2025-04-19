@@ -1,34 +1,27 @@
 class Solution {
     public boolean isHappy(int n) {
-        Set<Integer>digitsSums=new HashSet<>();
-        if(n==1)
-            return true;
-        digitsSums.add(n);
-        int x;
-        while (true)
+        int slow = n;
+        int fast = n;
+        if(n <0) return false;
+        while(fast !=1)
         {
-            x=getDigitSum(n);
-            if(digitsSums.contains(x))
+            slow = genNext(slow);
+            fast = genNext(genNext(fast));
+            if(slow==fast&&fast!=1)  // if both reached 1 
+            {
                 return false;
-            else if(x==1)
-                return true;
-            else {
-                n = x;
-                digitsSums.add(n);
             }
-
         }
-
+        return true;
     }
 
-    private int getDigitSum(int n) {
-        int x=0,u;
-        while (n!=0)
-        {
-            u=n%10;
-            x+=u*u;
-            n=n/10;
+        private static int genNext(int number){
+            int sum=0;
+            while(number>0){
+                int digit = number % 10;
+                sum +=  digit * digit;
+                number /=10;
+            }
+            return sum;
         }
-        return x;
     }
-}
